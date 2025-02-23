@@ -1,49 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Bootstrap Example</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
   </head>
-  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+  <body>
+    <div class="container">
+      <!-- 1. Header Layout -->
+      <header class="header">
+        <img class="logo" src="./public/icons/Frame 168.png" alt="" />
+        <nav class="header-middle">
+          <a href="" class="links">Home</a>
+          <a href="" class="links">Shop</a>
+          <a href="" class="links">About</a>
+          <a href="" class="links">Contact</a>
+        </nav>
+        <nav class="header-right">
+          <a href="">
+            <img
+              class="icon"
+              src="./public/icons/mdi_account-alert-outline.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              class="icon"
+              src="./public/icons/akar-icons_search.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              class="icon"
+              src="./public/icons/akar-icons_heart.png"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              class="icon"
+              src="./public/icons/ant-design_shopping-cart-outlined.png"
+              alt=""
+            />
+          </a>
+        </nav>
+      </header>
 
-    <!-- Example Code -->
-    
-        
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Lalasia</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Article</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-            <i class="bi bi-bag"></i>
-            <i class="bi bi-person"></i>
+      <!-- 2. Banner Layout -->
+      <div class="banner">
+        <div class="layout">
+          <img
+            class="image-big"
+            src="./public/image/scandinavian-interior-mockup-wall-decal-background 1.png"
+            alt=""
+          />
+          <div class="board-out">
+            <div class="title-small">New Arrival</div>
+            <div class="title-big">Discover Our New Collection</div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis.
+            </div>
+            <button type="submit" class="button">Buy Now</button>
+          </div>
         </div>
       </div>
-    </nav>
-    
-      
-    <!-- End Example Code -->
+      <!-- 3. Browse The Range Layout -->
+      <div class="product-range">
+        <div class="header-product">
+          <h3>Browse The Range</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+          <div class="card-layout">
+            <img class="card-item" src="./public/image/product-1.png" alt="" />
+            <h4>Dining</h4>
+          </div>
+
+          <div class="card-layout">
+            <img class="card-item" src="./public/image/product-2.png" alt="" />
+            <h4>Living</h4>
+          </div>
+
+          <div class="card-layout">
+            <img class="card-item" src="./public/image/product-3.png" alt="" />
+            <h4>Bedroom</h4>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
